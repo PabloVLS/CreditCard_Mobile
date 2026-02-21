@@ -57,5 +57,7 @@ An Android application built with **Kotlin** and **ConstraintLayout** that simul
 ---
 
 ## 📸 Preview
+<img width="316" height="550" alt="image" src="https://github.com/user-attachments/assets/08ef32a4-1f61-4710-9c8c-c36bba9b349d" />
 
-Real-time interactive credit card simulation with validation, animation, and brand detection.
+<img width="318" height="575" alt="image" src="https://github.com/user-attachments/assets/146df83c-c494-404c-b70e-21b956096666" />
+
