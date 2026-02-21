@@ -57,7 +57,8 @@ An Android application built with **Kotlin** and **ConstraintLayout** that simul
 ---
 
 ## 📸 Preview
-<img width="318" height="575" alt="image" src="https://github.com/user-attachments/assets/08ef32a4-1f61-4710-9c8c-c36bba9b349d" />
+<img width="318" height="575" alt="image" src="https://github.com/user-attachments/assets/89998700-9a8e-4a1a-8535-a85a2086de61" />
+
 
 <img width="318" height="575" alt="image" src="https://github.com/user-attachments/assets/146df83c-c494-404c-b70e-21b956096666" />
 
