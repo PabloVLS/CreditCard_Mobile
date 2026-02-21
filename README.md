@@ -1,43 +1,61 @@
-# Credit Card Mobile UI (Android - Kotlin)
+# 💳 Credit Card Mobile UI (Android - Kotlin)
 
-This project is an Android application developed using **Kotlin** and **ConstraintLayout** to simulate a credit card interface.
+An Android application built with **Kotlin** and **ConstraintLayout** that simulates a real credit card interface with dynamic preview, input validation, and brand detection.
 
-## Features
+---
 
-- Real-time credit card preview using CardView
-- Input form with:
-  - Card number
-  - Card holder name
-  - Expiration date (MM/YY)
+## 🚀 Features
+
+- 📱 Real-time credit card preview using **CardView**
+- 🧾 Interactive input form:
+  - Card Number
+  - Card Holder Name
+  - Expiration Date (MM/YY)
   - CVV
-- Automatic input formatting:
+- ✨ Automatic input formatting:
   - Card number formatted with spaces every 4 digits
   - Expiration date formatted as MM/YY
-- Input validation:
-  - Card number must contain 16 digits
+- ✅ Input validation:
+  - Card number must contain exactly 16 digits
   - Card holder name must contain at least 3 characters
 
-## Technical Challenges
+---
 
-### Dynamic UI (CardFlipper)
-- The card flips to show the back when the CVV field is selected
-- The card returns to the front when other fields are selected
+## 🎯 Technical Challenges
 
-### Card Brand Detection
-- Identifies the card brand (Visa, Mastercard, etc.) based on the first digits
-- Updates the card logo and color dynamically
+### 🔄 Dynamic UI (CardFlipper)
+- Automatically flips the card to the back when the CVV field is selected
+- Returns to the front when other fields are selected
+- Provides a realistic card interaction experience
 
-## Technical Implementation
+### 🏷️ Card Brand Detection
+- Detects the card brand (Visa, Mastercard, etc.) based on the first digits
+- Dynamically updates the card logo and background color
 
-- Language: Kotlin
-- Layout: ConstraintLayout
-- Components: CardView, TextWatcher
-- Real-time UI updates based on user input
+---
 
-## Repository
+## 🛠️ Technical Implementation
 
-https://github.com/PabloVLS/CreditCard_Mobile
+- **Language:** Kotlin  
+- **Layout:** ConstraintLayout  
+- **UI Components:** CardView, CardFlipper  
+- **Logic:** TextWatcher for real-time updates  
+- **Architecture:** Real-time UI synchronization with user input  
 
-## Demo Video
+---
 
-[Add your YouTube unlisted video link here](https://youtu.be/q8YvL7cXSfc)
+## 📂 Repository
+
+🔗 https://github.com/PabloVLS/CreditCard_Mobile
+
+---
+
+## 🎥 Demo Video
+
+📺 https://youtu.be/q8YvL7cXSfc
+
+---
+
+## 📸 Preview
+
+Real-time interactive credit card simulation with validation, animation, and brand detection.
