@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFrente"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="93dp"
+                android:layout_height="51dp"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                app:srcCompat="@drawable/elo"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="39dp"
+                android:layout_height="32dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                app:srcCompat="@drawable/sinal"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/txtNumeroCartao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="48dp"
+                android:text="0000 0000 0000 0000"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:letterSpacing="0.06"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtNomeNoCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="12dp"
+                android:text="PABLO VINICIUS LIMA SOUZA"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/txtValidadeNoCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="12dp"
+                android:text="MM/AA"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

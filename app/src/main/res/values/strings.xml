@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CartaoCredito</string>
+    <string name="placeholder_card_number">**** **** **** ****</string>
+    <string name="placeholder_card_holder">NOME DO TITULAR</string>
+    <string name="placeholder_validity">MM/AA</string>
+    <string name="placeholder_cvv">***</string>
+    <string name="hint_card_number">Número do Cartão</string>
+    <string name="hint_card_holder">Nome do Titular</string>
+    <string name="hint_validity">Validade (MM/AA)</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="btn_finish">Atualizar</string>
+</resources>

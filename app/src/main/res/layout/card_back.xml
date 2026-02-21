@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVerso"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/txtLicenca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:letterSpacing="0.1"
+                android:text="Under by licence international"
+                android:textColor="#BDBDBD"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/tarjaPreta"
+                android:layout_width="4500dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="28dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/txtNumeroNoCartao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="88dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="16dp"
+                android:text="#### #### #### ####"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtAgenciaNoCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="12dp"
+                android:text="Agencia: ####"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtCvvNoCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:text="Cvv: ###"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="86dp"
+                android:layout_height="47dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="52dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/elo" />
+
+            <TextView
+                android:id="@+id/txtContaNoCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:text="Conta: ######"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
